@@ -20,7 +20,7 @@ class Date:
             resultado = True
         elif year % 400 != 0:
             resultado = True
-
+        print(__name__)
         return resultado
 
     @staticmethod
@@ -67,3 +67,7 @@ class Date:
 
     def __eq__(self, other) -> bool:
         ...
+
+if __name__ == "__main__":
+    pass
+    #aqui va un código de prueba
