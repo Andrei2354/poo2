@@ -1,4 +1,4 @@
-from Vehículo import Vehiculo
+from Bicicleta import bicicleta
 
-class moto(Vehiculo):
+class moto(bicicleta):
     pass
